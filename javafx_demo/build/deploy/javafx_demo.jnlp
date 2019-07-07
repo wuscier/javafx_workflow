@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="javafx_demo.jnlp">
+  <information>
+    <title>javafx_demo</title>
+    <vendor>wuxu</vendor>
+    <description>javafx_demo</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="javafx_demo.jar" size="2200" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.Main"  name="javafx_demo" />
+  <update check="background"/>
+</jnlp>
